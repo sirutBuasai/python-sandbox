@@ -1,7 +1,4 @@
 # Python-Sandbox
-
-## Description
-
 Sandbox to test out python libraries.
 
 ### Directory map
