@@ -37,7 +37,7 @@ DEFAULT_DIGIT_COUNT = 6
 #
 # generate_passcode()
 #
-def generate_passcode(digit_count: int) -> int:  
+def generate_passcode(digit_count: int) -> int:
   """
   Args:
       digit_count: the number of digits you want from the OTP
@@ -78,7 +78,7 @@ def main():
   _clean_loggers(args.log_level.upper())
   logger = _get_logger()
   logger.info("Log level is '%s'", args.log_level.upper())
-  
+
   digit = args.number
   print(generate_passcode(digit))
 
