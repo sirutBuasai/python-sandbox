@@ -29,8 +29,8 @@ arr = np.array([1,2,3], dtype='int32')
 print_array("arr", arr)
 
 # Simple nested arrays
-nested_arr = np.array([[9.0,8.0,7.0],
-                      [6.0,5.0,4.0]])
+nested_arr = np.array([[8.0,7.0,6.0],
+                      [5.0,4.0,3.0]])
 print_array("nested_arr", nested_arr)
 
 # Get dimension of an array
